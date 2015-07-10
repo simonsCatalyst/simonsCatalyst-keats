@@ -1,0 +1,29 @@
+/**
+ * KEATS Font Styles
+ *
+ * @package    theme
+ * @subpackage keats
+ * @copyright  2014 King's College London <http://kcl.ac.uk>
+ * @copyright  2014 Catalyst IT <http://catalyst-eu.net>
+ * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ */
+
+@font-face {
+    font-family: "BureauGrotesqueThreeSeven";
+        src: url("/theme/keats/fonts/97d9eb9e-0b31-46ab-85bb-74729e0cf448-2.eot");
+        src: url("/theme/keats/fonts/97d9eb9e-0b31-46ab-85bb-74729e0cf448-2.eot?") format("embedded-opentype"),
+             url("/theme/keats/fonts/97d9eb9e-0b31-46ab-85bb-74729e0cf448-3.woff") format("woff"),
+             url("/theme/keats/fonts/97d9eb9e-0b31-46ab-85bb-74729e0cf448-1.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Caslon";
+        src: url("/theme/keats/fonts/king_s_caslon_text-webfont.eot");
+        src: url("/theme/keats/fonts/king_s_caslon_text-webfont.eot?") format("embedded-opentype"),
+             url("/theme/keats/fonts/king_s_caslon_text-webfont.woff") format("woff"),
+             url("/theme/keats/fonts/king_s_caslon_text-webfont.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}

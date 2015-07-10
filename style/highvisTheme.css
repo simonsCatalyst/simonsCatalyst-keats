@@ -1,0 +1,154 @@
+/**
+ * King's College London - theme/keats
+ *
+ * @package    theme
+ * @subpackage keats
+ * @copyright  2014 King's College London <http://kcl.ac.uk>
+ * @copyright  2014 Catalyst IT <http://catalyst-eu.net>
+ * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ */
+
+
+body.keats-highvisTheme {
+    background:#555 !important;
+}
+
+body.keats-highvisTheme #container,
+body.keats-highvisTheme #container *,
+body.keats-highvisTheme #container .row-fluid,
+body.keats-highvisTheme #container #page-footer .footer-lower,
+body.keats-highvisTheme #container .course-content ul.ctopics li.section .content .toggle a h3,
+body.keats-highvisTheme #container .course-content ul.ctopics li.section .content.sectionhidden {
+    color:#FFFF00 !important;
+    background-color:#000 !important;
+}
+
+body.keats-highvisTheme #container .mceToolbar,
+body.keats-highvisTheme #container .mceToolbar *,
+body.keats-highvisTheme #container .colour-highvisTheme i,
+body.keats-highvisTheme #container .nav.pull-right .nav > li.messages > a ot,
+body.keats-highvisTheme #container  #page-header .coursesearch input[type="text"],
+body.keats-highvisTheme #container button,
+body.keats-highvisTheme #container textarea,
+body.keats-highvisTheme #container select,
+body.keats-highvisTheme #container input.form-submit,
+body.keats-highvisTheme #container input[type="text"],
+body.keats-highvisTheme #container input[type="password"],
+body.keats-highvisTheme #container input[type="button"],
+body.keats-highvisTheme #container input[type="submit"],
+body.keats-highvisTheme #container input[type="reset"],
+body.keats-highvisTheme #container input#id_submitbutton,
+body.keats-highvisTheme #container input#id_submitbutton2,
+body.keats-highvisTheme #container .filemanager,
+body.keats-highvisTheme #container .filemanager *,
+body.keats-highvisTheme #container .path-admin .buttons input[type="submit"],
+body.keats-highvisTheme #container td.submit input,
+body.keats-highvisTheme #container .block_course_overview_keats.block .ui-tabs .ui-tabs-nav li,
+body.keats-highvisTheme #container .block_course_overview_keats.block .ui-tabs .ui-tabs-nav li a {
+    color:#000 !important;
+}
+
+body.keats-highvisTheme #container #dock,
+body.keats-highvisTheme #container #back-top,
+body.keats-highvisTheme #container #back-top .chevron-up,
+body.keats-highvisTheme #container .colour-highvisTheme i,
+body.keats-highvisTheme #container .navbar .btn-navbar .icon-bar,
+body.keats-highvisTheme #container .nav.pull-right .nav > li.messages > a ot,
+body.keats-highvisTheme #container button,
+body.keats-highvisTheme #container input.form-submit,
+body.keats-highvisTheme #container input[type="button"],
+body.keats-highvisTheme #container input[type="submit"],
+body.keats-highvisTheme #container input[type="reset"],
+body.keats-highvisTheme #container input#id_submitbutton,
+body.keats-highvisTheme #container input#id_submitbutton2,
+body.keats-highvisTheme #container .path-admin .buttons input[type="submit"],
+body.keats-highvisTheme #container td.submit input,
+body.keats-highvisTheme #container .block_course_overview_keats.block .ui-tabs .ui-tabs-nav li,
+body.keats-highvisTheme #container .block_course_overview_keats.block .ui-tabs .ui-tabs-nav li a,
+body.keats-highvisTheme #container .block_course_overview_keats.block .ui-tabs .ui-tabs-nav li.ui-state-active a,
+body.keats-highvisTheme #container .block_course_overview_keats.block .ui-tabs .ui-tabs-nav li.ui-state-active a:hover {
+    background-color:#FFFF00 !important;
+}
+
+body.keats-highvisTheme #container #page-header .coursesearch input[type="submit"] {
+    background-color:#000 !important;
+}
+
+body.keats-highvisTheme #container .row-fluid {
+    background-image:none !important;
+}
+
+body.keats-highvisTheme #container #page-header,
+body.keats-highvisTheme #container header .container-fluid {
+    border-bottom:1px solid #fff;
+}
+
+body.keats-highvisTheme #container a,
+body.keats-highvisTheme.jsenabled #container .block_settings .block_tree .tree_item.branch,
+body.keats-highvisTheme.jsenabled #container .block_navigation .block_tree .tree_item.branch {
+    text-decoration:underline !important;
+}
+body.keats-highvisTheme #container a:focus,
+body.keats-highvisTheme #container a:hover,
+body.keats-highvisTheme.jsenabled #container .block_settings .block_tree .tree_item.branch:focus,
+body.keats-highvisTheme.jsenabled #container .block_navigation .block_tree .tree_item.branch:focus,
+body.keats-highvisTheme.jsenabled #container .block_settings .block_tree .tree_item.branch:hover,
+body.keats-highvisTheme.jsenabled #container .block_navigation .block_tree .tree_item.branch:hover {
+    text-decoration:none !important;
+}
+
+body.keats-highvisTheme #container .panel .settings,
+body.keats-highvisTheme #container #dashAccess {
+    border:1px solid #fff;
+}
+
+body.keats-highvisTheme #container #dashSlide .colour-defaultTheme img {
+    background:#0B5584 !important;
+}
+
+body.keats-highvisTheme #container #dashSlide .colour-yellowTheme img {
+    background:#86882F !important;
+}
+
+body.keats-highvisTheme #container #dashSlide .colour-orangeTheme img {
+    background:#D68227 !important;
+}
+
+body.keats-highvisTheme #container select,
+body.keats-highvisTheme #container textarea,
+body.keats-highvisTheme #container input[type="text"],
+body.keats-highvisTheme #container input[type="password"],
+body.keats-highvisTheme #container input[type="datetime"],
+body.keats-highvisTheme #container input[type="datetime-local"],
+body.keats-highvisTheme #container input[type="date"],
+body.keats-highvisTheme #container input[type="month"],
+body.keats-highvisTheme #container input[type="time"],
+body.keats-highvisTheme #container input[type="week"],
+body.keats-highvisTheme #container input[type="number"],
+body.keats-highvisTheme #container input[type="email"],
+body.keats-highvisTheme #container input[type="url"],
+body.keats-highvisTheme #container input[type="search"],
+body.keats-highvisTheme #container input[type="tel"],
+body.keats-highvisTheme #container input[type="color"],
+body.keats-highvisTheme #container .uneditable-input {
+    background:#ffffff !important;
+}
+
+body.keats-highvisTheme #container .mceToolbar,
+body.keats-highvisTheme #container .mceToolbar *,
+body.keats-highvisTheme #container .filemanager,
+body.keats-highvisTheme #container .filemanager *,
+body.keats-highvisTheme #container .filemanager-toolbar,
+body.keats-highvisTheme #container .filemanager-toolbar * {
+    background-color:#f2f2f2 !important;
+}
+
+body.keats-highvisTheme #container .moodleSkin .mceColorSplitMenu td a {
+    background-color:inherit !important;
+}
+
+@media (min-width:981px) {
+    body.keats-highvisTheme #container .nav.pull-right ul.dropdown-menu {
+        border:1px solid #fff;
+    }
+}

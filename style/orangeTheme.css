@@ -1,0 +1,7 @@
+body.keats-orangeTheme {
+    background:#50b9ad url([[pix:theme|bg]]) repeat 0 0 fixed !important;
+}
+
+body.keats-orangeTheme #page-header {
+    background-color:#D68227
+}
