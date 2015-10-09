@@ -76,7 +76,7 @@ h6 {
 
 
 #adminsettings h3 {
-    font-size:2.3em;
+    font-size:16px;
     line-height:normal;
 }
 #maintenancetitle {
@@ -124,7 +124,10 @@ a.weblink,
     width: 99% !important;
     height: inherit;
 }
-
+img.icon {
+    width:auto;
+    height:auto;
+}
 
 /**
  * Form
@@ -960,6 +963,7 @@ body.has_dock .navbar-fixed-top {
 .block .content .singlebutton input {
     margin:0;
 }
+.singleselect,
 .block_adminblock select {
     width:100%;
     max-width:100%;
@@ -1375,6 +1379,28 @@ fieldset {
     vertical-align:middle;
     border-bottom:1px solid #e4e4e4;
 }
+.path-mod-book h2 {
+    margin:5px 100px 15px 0;
+}
+.path-mod-book .navtop {
+    margin-top:-3em;
+    margin-bottom:1.5em;
+}
+.path-mod-book .navbottom {
+    margin-bottom:1em;
+}
+@media (max-width:767px) {
+    .path-mod-book h2 {
+        margin-right:0;
+    }
+    .path-mod-book .navbottom,
+    .path-mod-book .navtop {
+        text-align:center;
+    }
+    .path-mod-book .navtop {
+        margin-top:0;
+    }
+}
 
 /**
  * Footer
@@ -1653,7 +1679,6 @@ fieldset {
     margin-top:-2px;
     padding-bottom:3px;
 }
-ctopics
 .course-content ul.topics li.section .right img.icon,
 .course-content ul.weeks li.section .right img.icon {
     padding-bottom:4px;
@@ -1786,9 +1811,13 @@ ctopics
 .course_category_tree .category > .content {
     padding-left:22px;
 }
+.course_category_tree  .coursebox {
+    margin-bottom:0;
+}
 .course_category_tree  .coursebox > .info > .coursename {
     display:inline-block;
-    margin:7px 0;
+    font-size:16px;
+    margin:10px 0;
 }
 .course_category_tree  .coursebox > .info > .coursename a {
     font-weight:bold;
@@ -1901,6 +1930,14 @@ div#gridshadebox_content {
 }
 .course-content ul.ctopics li.section .content .toggledsection {
     padding:0 15px 20px;
+}
+.course-content ul li.section.hidden {
+    opacity:1;
+}
+.course-content ul.topics li.section.hidden,
+.course-content ul.topics li.section.hidden div.sectionhead,
+.course-content ul.topics li.section.hidden h3.sectionname {
+    background-color:#f0f0f0;
 }
 body.jsenabled .course-content ul.ctopics li.section .content .sectionhead a {
     margin:0 !important;
@@ -2470,6 +2507,89 @@ div.tabtree {
         -webkit-border-radius:0;
         -moz-border-radius:0;
         border-radius:0;
+    }
+}
+
+/** Tabs Display Module **/
+#tab-menu-wrapper {
+    min-width:200px;
+}
+#tab-menu-wrapper ul.menutable {
+    margin:0;
+    border: 1px solid #D5D3D4;
+    -webkit-border-radius: 4px 0 0 0;
+    -moz-border-radius:  4px 0 0 0;
+    border-radius:  4px 0 0 0;
+}
+#tabcontent {
+    padding:0 !important;
+    margin-left:0 !important;
+}
+#tabcontent .TabbedPanels {
+    margin-bottom:25px;
+}
+#tab-menu-wrapper .menutitle,
+#tabcontent .TabbedPanels .TabbedPanelsTab,
+#tabcontent .TabbedPanels .TabbedPanelsTabSelected {
+    float: left;
+    display: block;
+    font-weight:bold;
+    color: #0B5584;
+    margin-right: 2px;
+    margin-bottom: 0;
+    padding: 0.7em 1em;
+    border: 1px solid #D5D3D4;
+    -webkit-border-radius: 4px 4px 0 0;
+    -moz-border-radius:  4px 4px 0 0;
+    border-radius:  4px 4px 0 0;
+    background: #fff url([[pix:theme|tab-bg]]) repeat-x center bottom;
+}
+#tabcontent .TabbedPanels .TabbedPanelsTab:focus,
+#tabcontent .TabbedPanels .TabbedPanelsTab:hover {
+    color:#367ba5;
+    text-decoration:underline;
+}
+#tabcontent .TabbedPanels .TabbedPanelsTabSelected {
+    color:#000;
+    background:#fff;
+    border-bottom:1px solid #fff;
+}
+#tabcontent .TabbedPanels .TabbedPanelsContentGroup {
+    padding:5px 10px;
+    border: 1px solid #D5D3D4;
+}
+#tab-menu-wrapper ul.menutable li,
+#tab-menu-wrapper ul.menutable li.row:last-child {
+    margin:0;
+    padding:8px 10px;,
+    -webkit-border-radius: 0;
+    -moz-border-radius:  0;
+    border-radius:  0;
+}
+#tab-menu-wrapper ul.menutable li.menutitle {
+    float:none;
+    color:#000;
+    margin:0;
+    border:none;
+    border-bottom: 1px solid #D5D3D4;
+    -webkit-border-radius: 4px 0 0 0;
+    -moz-border-radius:  4px 0 0 0;
+    border-radius:  4px 0 0 0;
+}
+
+@media (max-width:767px) {
+    #tabcontent,
+    #tab-menu-wrapper {
+        float:none !important;
+        width:inherit !important;
+        padding:0 !important;
+        margin-bottom:15px;
+    }
+    #tab-menu-wrapper ul.menutable {
+        width:inherit;
+    }
+    #tabcontent .TabbedPanels {
+        padding:0;
     }
 }
 
