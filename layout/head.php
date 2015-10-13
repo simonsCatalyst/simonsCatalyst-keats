@@ -47,7 +47,32 @@ $PAGE->requires->jquery();
 <head>
     <title><?php echo $PAGE->title ?></title>
     <link rel="shortcut icon" href="<?php echo $OUTPUT->pix_url('favicon', 'theme')?>" />
-    <link rel="apple-touch-icon-precomposed" href="<?php echo $OUTPUT->pix_url('apple-touch-icon', 'theme')?>" />
+    <!-- For Chrome for Android: -->
+    <link rel="icon" sizes="192x192" href="<?php echo $OUTPUT->pix_url('apple-touch-iconandroid-icon-192x192', 'theme')?>">
+    <!-- For iPhone 6 Plus with @3× display: -->
+    <link rel="apple-touch-icon" sizes="180x180" href="<?php echo $OUTPUT->pix_url('apple-touch-iconapple-touch-icon-180x180', 'theme')?>">
+    <!-- For iPad with @2× display running iOS ≥ 7: -->
+    <link rel="apple-touch-icon" sizes="152x152" href="<?php echo $OUTPUT->pix_url('apple-touch-iconapple-touch-icon-152x152', 'theme')?>">
+    <!-- For iPad with @2× display running iOS ≤ 6: -->
+    <link rel="apple-touch-icon" sizes="144x144" href="<?php echo $OUTPUT->pix_url('apple-touch-iconapple-touch-icon-144x144', 'theme')?>">
+    <!-- For iPhone with @2× display running iOS ≥ 7: -->
+    <link rel="apple-touch-icon" sizes="120x120" href="<?php echo $OUTPUT->pix_url('apple-touch-iconapple-touch-icon-120x120', 'theme')?>">
+    <!-- For iPhone with @2× display running iOS ≤ 6: -->
+    <link rel="apple-touch-icon" sizes="114x114" href="<?php echo $OUTPUT->pix_url('apple-touch-iconapple-touch-icon-114x114', 'theme')?>">
+    <!-- For the iPad mini and the first- and second-generation iPad (@1× display) on iOS ≥ 7: -->
+    <link rel="apple-touch-icon" sizes="76x76" href="<?php echo $OUTPUT->pix_url('apple-touch-iconapple-touch-icon-76x76', 'theme')?>">
+    <!-- For the iPad mini and the first- and second-generation iPad (@1× display) on iOS ≤ 6: -->
+    <link rel="apple-touch-icon" sizes="72x72" href="<?php echo $OUTPUT->pix_url('apple-touch-iconapple-touch-icon-72x72', 'theme')?>">
+    <!-- For the iPad mini and the first- and second-generation iPad (@1× display) on iOS ≤ 6: -->
+    <link rel="apple-touch-icon" sizes="60x60" href="<?php echo $OUTPUT->pix_url('apple-touch-iconapple-touch-icon-60x60', 'theme')?>">
+    <!-- For non-Retina iPhone, iPod Touch, and Android 2.1+ devices: -->
+    <link rel="apple-touch-icon" sizes="57x57" href="<?php echo $OUTPUT->pix_url('apple-touch-iconapple-touch-icon-57x57', 'theme')?>">
+    <!-- For Microsoft devices using Tiles: -->
+    <meta name="msapplication-square70x70logo" content="<?php echo $OUTPUT->pix_url('apple-touch-iconapple-touch-icon-114x114smalltile, 'theme')?>" />
+    <meta name="msapplication-square150x150logo" content="<?php echo $OUTPUT->pix_url('apple-touch-iconapple-touch-icon-114x114mediumtile, 'theme')?>" />
+    <meta name="msapplication-wide310x150logo" content="<?php echo $OUTPUT->pix_url('apple-touch-iconapple-touch-icon-114x114widetile, 'theme')?>" />
+    <meta name="msapplication-square310x310logo" content="<?php echo $OUTPUT->pix_url('apple-touch-iconapple-touch-icon-114x114largetile, 'theme')?>" />
+
     <?php echo $OUTPUT->standard_head_html() ?>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
