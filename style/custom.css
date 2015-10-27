@@ -1379,6 +1379,34 @@ fieldset {
     vertical-align:middle;
     border-bottom:1px solid #e4e4e4;
 }
+.path-mod-workshop .example-summary.graded .singlebutton input[type="submit"],
+.path-mod-workshop .assessment-summary.graded .singlebutton input[type="submit"],
+.path-mod-workshop .submission-summary.graded .singlebutton input[type="submit"] {
+    background-color:#86b700;
+}
+.path-mod-workshop .example-summary.notgraded .singlebutton input[type="submit"],
+.path-mod-workshop .assessment-summary.notgraded .singlebutton input[type="submit"],
+.path-mod-workshop .submission-summary.notgraded .singlebutton input[type="submit"] {
+    background-color:#cb3429;
+}
+.path-mod-workshop .example-summary.graded .singlebutton input[type="submit"]:hover,
+.path-mod-workshop .assessment-summary.graded .singlebutton input[type="submit"]:hover,
+.path-mod-workshop .submission-summary.graded .singlebutton input[type="submit"]:hover,
+.path-mod-workshop .example-summary.notgraded .singlebutton input[type="submit"]:hover,
+.path-mod-workshop .assessment-summary.notgraded .singlebutton input[type="submit"]:hover,
+.path-mod-workshop .submission-summary.notgraded .singlebutton input[type="submit"]:hover {
+    zoom: 1;
+    filter: alpha(opacity=70);
+    opacity: 0.7;
+}
+.path-mod-workshop .submission-full .header,
+.path-mod-workshop .assessment-full .header {
+    background-color:#f4f4f4;
+}
+.path-mod-workshop .submission-full .header .author,
+.path-mod-workshop .submission-full .header .userdate.created {
+    font-size:inherit;
+}
 .path-mod-book h2 {
     margin:5px 100px 15px 0;
 }
