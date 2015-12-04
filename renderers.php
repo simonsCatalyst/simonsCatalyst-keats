@@ -145,7 +145,7 @@ class theme_keats_core_renderer extends core_renderer {
      * always shown, even if no menu items are configured in the global
      * theme settings page.
      */
-    public function user_menu() {
+    public function user_menu($user = null, $withlinks = null) {
         global $CFG;
         $usermenu = new custom_menu('', current_language());
         return $this->render_user_menu($usermenu);
